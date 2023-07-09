@@ -1,0 +1,4 @@
+AL-9  I want to retrieve all employees' emails and salaries so that I can prepare a report on the current salary distribution.
+solution:
+
+select id,email,salary from employees_salary;   
