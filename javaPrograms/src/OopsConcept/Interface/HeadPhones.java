@@ -1,6 +1,6 @@
 package OopsConcept.Interface;
 
-public class HeadPhones implements AudioDevice{
+public class HeadPhones implements AudioDevice,CalculatorService{
 
 
     @Override
@@ -26,5 +26,25 @@ public class HeadPhones implements AudioDevice{
     @Override
     public void volumeDown() {
         System.out.println("Decresing the volume in the headphone");
+    }
+
+    @Override
+    public double add(double value1, double value2) {
+        return 0;
+    }
+
+    @Override
+    public double substract(double value1, double value2) {
+        return 0;
+    }
+
+    @Override
+    public double multiply(double value1, double value2) {
+        return 0;
+    }
+
+    @Override
+    public double divide(double value1, double value2) {
+        return 0;
     }
 }

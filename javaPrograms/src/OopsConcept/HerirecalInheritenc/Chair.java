@@ -6,7 +6,7 @@ public class Chair extends Furniture {
     String brand;
 
     public Chair(int noOfLegs, String color,double price,String material,String brand) {
-        super(price, material);
+        super(price,material);
         this.noOfLegs = noOfLegs;
         this.color = color;
         this.brand=brand;

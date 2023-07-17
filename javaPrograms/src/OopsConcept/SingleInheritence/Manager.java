@@ -8,5 +8,7 @@ public class Manager extends Employee{
         this.department = department;
     }
 
-
+    public void ManagerDepartment(){
+        System.out.println("department is "+department);
+    }
 }
