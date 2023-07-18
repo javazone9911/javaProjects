@@ -9,6 +9,6 @@ public class B {
         a.protectedMethod();
         System.out.println(a.publicWord="Good morning");
         a.publicMethod();
-        
+
     }
 }
