@@ -1,10 +1,10 @@
-package com.teckinfo.firstapplication;
+package com.pktech;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FirstapplicationApplicationTests {
+class FirstAppApplicationTests {
 
 	@Test
 	void contextLoads() {

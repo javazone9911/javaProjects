@@ -8,10 +8,10 @@
 		<version>3.1.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.teckinfo</groupId>
-	<artifactId>firstapplication</artifactId>
+	<groupId>com.pktech</groupId>
+	<artifactId>firstApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>firstapplication</name>
+	<name>firstApp</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -47,19 +47,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.swagger.core.v3/swagger-annotations -->
-		<dependency>
-			<groupId>io.swagger.core.v3</groupId>
-			<artifactId>swagger-annotations</artifactId>
-			<version>2.2.12</version>
-		</dependency>
-		
-		<dependency>
-  <groupId>com.google.code.gson</groupId>
-  <artifactId>gson</artifactId>
-  <version>2.8.5</version><!--$NO-MVN-MAN-VER$--> <!-- check latest version for GSON -->
-</dependency>
-
 	</dependencies>
 
 	<build>
